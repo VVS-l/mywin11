@@ -12,16 +12,10 @@ export const EdgeMenu = () => {
 
   const iframes = {
     "https://www.google.com/webhp?igu=1": "Google",
-    "https://bing.com": "Bing",
-    "https://www.youtube.com/embed/m0EHSoZzHEA": "Youtube",
-    "https://blueedge.me": "blueedge",
-    "https://andrewstech.me": "\nandrewstech",
-    "https://blueedge.me/unescape": "Unescape",
-    "https://win11.blueedge.me": "Inception",
-    "https://open.spotify.com/embed/user/jhfivkgdtg4s97pwbo1rbvr9v/playlist/6IdR78TOog83PV4XhLDvWN":
-      "Spotify",
-    "https://bluelab.blueedge.me": "BlueLab",
-    "https://othello.blueedge.me": "Othello",
+    "https://wooflix.tv/": "Wooflix",
+    "https://d1tm91r4ytbt54.cloudfront.net/2779cbcb-a02f-48a3-9e2e-95a8d123d165/1685483461665/web/index.html": "Minecraft",
+    "https://sumenglish.global.ssl.fastly.net/": "Roblox",
+    "https://faf-games.gitlab.io/game/1v1lol.html": "1v1.lol",
   };
 
   const favicons = {
@@ -59,7 +53,7 @@ export const EdgeMenu = () => {
             qry = "https://" + qry;
           }
         } else {
-          qry = "https://www.bing.com/search?q=" + qry;
+          qry = "https://www.google.com/webhp?igu=1" + qry;
         }
 
         e.target.value = qry;
